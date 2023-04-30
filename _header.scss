@@ -1,0 +1,90 @@
+
+*{
+margin: 0;
+list-style-type: none;
+box-sizing: border-box;
+}
+.section-nav{
+   @include flex;
+   @include general-margin;
+   z-index: 10;
+   background-color:$color-neutral-white;
+   height: 6vh;
+   opacity: 1;
+
+}
+
+.header{
+    margin-bottom: 2.5rem;
+    
+}
+.nav-icon--bank{
+    padding-top: 1rem;
+}
+nav{
+    padding-top: 1rem;
+    @include flex;
+    ul{
+        @include flex;
+        li{
+            margin-left:1rem;
+            text-transform: capitalize;
+            font-weight:$thin-font-weight;
+            color:$color-neutral-Grayish-Blue;
+            font-size: 1.6rem;
+           }
+    }
+  
+}
+
+.button-div{
+  @include button_design;
+  
+}
+
+.generation{
+    @include flex;
+    @include general-margin;
+  &--next{
+    font-size: 5.5rem;
+    font-weight: $thick-font-weight;
+    text-transform: capitalize;
+    display: block;
+    width: 50vh;  
+    font-family: sans-serif;
+}
+&--next--second{
+@include font_paragraph;
+display: block;
+width: 60vh;
+font-family: sans-serif;
+margin-bottom: 2.8rem;
+
+}
+&--next--button{
+    @include button_design;
+}
+.header-button{
+    padding-top: 1rem;
+}
+
+}
+.generation--next--image{
+    width: 100vh;
+    // position: relative;
+    z-index: -20;
+}
+.generation--image--div{
+    z-index: -1;
+    position: relative;   
+}
+.generation--image-mock{
+    z-index: 1px;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+    width: 70vh;
+    display: block;
+
+}
+

@@ -1,0 +1,63 @@
+.footer--section{
+
+    background-color: $color-primary-dark-blue;
+}
+
+.footer{
+    @include flex;
+    @include general-margin;
+    height: 20vh;
+    margin-top: 6rem;
+   
+
+
+    &--middle--div{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 6rem;
+    }
+    &--middle--div--sep{
+        margin-top: 3rem;
+        ul{
+            li{
+                font-size:1.6rem;
+                text-transform: capitalize;
+                font-weight: $thick-font-weight;
+                line-height: 5rem;
+                color: $color-neutral-white;
+                font-family: sans-serif;
+            }
+        }
+    }
+
+    &--button{
+        margin-top: 8rem;
+    }
+    &--icon--image{
+       :nth-child(2){
+        margin-left:2rem;
+       }
+       :nth-child(3){
+        margin-left: 2rem;
+       }
+       :nth-child(4){
+        margin-left: 2rem;
+       }
+       :nth-child(5){
+        margin-left: 2rem;
+       }
+       :nth-child(3){
+        margin-left: 2rem;
+       }
+        img{
+            margin-top: 5.5rem;
+            
+        }
+    }
+    &--bank--icon{
+        margin-top: 4rem;
+    }
+  }
+
+
+

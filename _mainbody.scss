@@ -1,0 +1,101 @@
+.choose{
+    @include general-margin;
+    height:55vh;
+    &--text-content--head{
+        font-size: 3.5rem;
+        text-transform:capitalize;
+        font-weight: $thick-font-weight;
+        font-family: sans-serif;
+        
+    }
+    &--banking{
+        margin-bottom: 5rem;
+    }
+    &--text-content{
+       @include font_paragraph;
+       display: block;
+       width:35vw;
+    }
+    &--easy--banking-flex{
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+
+    }
+    &--h2--content{
+     font-size: 2.7rem;
+     text-transform: capitalize;
+     font-weight: $darkend-fontweight;
+     font-family: $font-family;
+
+    }
+    &--paragraph--content{
+        font-size: 1.8rem;
+        font-family: sans-serif;
+       text-transform: capitalize;
+       font-weight: $thin-font-weight;
+       display: block;
+       width: 15vw;
+       color: $color-neutral-Grayish;
+       line-height: 2.5rem;
+    }
+}
+
+.section{
+    &--article{
+    margin-bottom: 4rem;
+    font-weight: $darkend-fontweight;
+    font-size: 4rem;
+    font-family: $font-family;
+    }
+
+    &--margin{
+      @include general-margin;
+    }
+}
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 50vh;
+    
+    &--information{
+    width: 40vw;
+    padding-left:30rem;
+    }
+    &--information--h2{
+      margin-top: 2rem;
+      font-size: 1.3rem;
+      font-family:sans-serif;
+      color: $color-neutral-Grayish-Blue;
+    }
+    &--image--information{
+        width: 15vw;
+    }
+    &--information--p{
+        display:inline-block;
+        font-size: 1.6rem;
+        width:17vw;
+       font-family:sans-serif;
+       line-height:2.4rem;
+       font-weight: $thin-font-weight;
+       
+    }
+    &--span{
+        display: block;
+        font-size: 2rem;
+        width:13vw;
+        font-weight: $darkend-fontweight;
+        // font-family: sans-serif;
+        text-transform: capitalize;
+        line-height: 2.3rem;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+    &--card{
+        background-color: $gray-blue;
+    }
+}
+
+

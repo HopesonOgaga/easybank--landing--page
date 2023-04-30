@@ -1,0 +1,21 @@
+@mixin flex (){
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@mixin button_design(){
+    height: 4rem;
+    color: $color-neutral-light-gray;
+    text-transform: capitalize;
+    width: 15rem;
+    border:0rem solid $color-primary-dark-blue;
+    border-radius: 2rem;  
+    background-image:linear-gradient(to right, rgba($color-primary-lime-green, 0.8) , rgba($color-primary-bright-cyan, 0.8));
+    
+}
+
+@mixin general-margin(){
+    margin-left: 10rem;
+    margin-right:10rem;
+}
